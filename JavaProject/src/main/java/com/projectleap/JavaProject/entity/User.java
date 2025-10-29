@@ -16,7 +16,8 @@ import lombok.NoArgsConstructor; //constructor without arguments
 public class User{
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY) //auto id generation
-    private Long userId;
+    private Long id;
+    
     private String name;
     private String email;
     private String role; //staffs, supervisors, admins

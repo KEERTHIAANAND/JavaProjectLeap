@@ -1,4 +1,4 @@
-package com.projectleap.JavaProject;
+package com.projectleap.javaproject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
